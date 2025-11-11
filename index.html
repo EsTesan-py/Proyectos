@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panel</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mi Panel Personal</h1>
+      <p>Espacio de deposito de ideas y notas</p>
+
+      <nav>
+        <button class="tab" data-tab="notas">Notas</button>
+        <button class="tab" data-tab="tareas">Tareas</button>
+        <button class="tab" data-tab="estadisticas">Estadisticas</button>
+        <button class="tab" data-tab="configuracion">Configuracion</button>
+      </nav>
+    </header>
+    <main>
+      <section id="notas" class="active">
+        <h2>Mis notas</h2>
+        <input
+          type="text"
+          id="nuevaNota"
+          placeholder="Escribe una nueva nota..."/>
+        <button id="agregarNota">Agregar Nota</button>
+        <ul id="listaNotas"></ul>
+      </section>
+
+      <section id="tareas">
+        <h2>Mis Tareas</h2>
+        <p>Escritua de antemanto de prueba</p>
+      </section>
+
+      <section id="estadisticas">
+        <h2>Estadisticas</h2>
+        <p>Escritua de antemanto de prueba</p>
+      </section>
+      <section id="configuracion">
+        <h2>Configuracion</h2>
+        <p>Escritua de antemanto de prueba</p>
+      </section>
+    </main>
+    <script type="module" src="dist/script.js" defer></script>
+  </body>
+</html>
