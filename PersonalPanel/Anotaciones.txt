@@ -1,0 +1,6 @@
+1. Generar base de datos.
+2. Tratar con Agregar, Modificar y eliminar notas.
+3. Agregar fecha y hora de anotaciones.
+4. Mejorar el apartado estetico.
+5. Inicio de sesion
+6. 
